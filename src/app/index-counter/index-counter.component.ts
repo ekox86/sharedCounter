@@ -6,10 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./index-counter.component.css']
 })
 export class IndexCounterComponent implements OnInit {
-
+  
+  contatore= 0;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
+   
+  cresc(){
+    this.contatore++;
+    console.log("1");
+  }
+
+  decresc(){
+    this.contatore--;
+    console.log("-1");
+  }
+  reset(){
+    this.contatore=0;
+  }
+  
 }

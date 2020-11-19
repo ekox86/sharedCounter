@@ -4,9 +4,9 @@
 <br><br>
 <!--<div class="btn btn-dark" type="button">-1</div>-->
 <div id="counter">
-  <div class="btn btn-dark" type="button">+1</div>
-  1
- <div class="btn btn-dark" type="button">-1</div>
+  <div class="btn btn-dark" type="button" (click)=cresc() >+1</div>
+ {{contatore}}
+ <div class="btn btn-dark" type="button" (click)=decresc()>-1</div>
 </div>
 <br>
 <!--<label for="quantity"><h3>Inserisci un numero oppure clicca sulle freccette per diminuire o aumentare il valore</h3> </label>
@@ -25,4 +25,6 @@
   </div>
 </div>
 <input type="submit" class="btn btn-dark" value="Invio">-->
-<button type="button" class="btn btn-danger">RESET</button>
+<button type="button" class="btn btn-danger" (click)=reset()>RESET</button>
+
+
