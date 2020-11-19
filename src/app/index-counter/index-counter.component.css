@@ -1,0 +1,18 @@
+.btn-secondary {
+  
+    margin: 3px;
+}
+
+input{
+    margin:1px;
+}
+#counter{
+    text-align: center;
+    background-color: antiquewhite;
+    border-color: black;
+    width: 30%;
+    font-size: 120px;
+    font-weight: bold;
+    height: 30%;
+    margin-right: 20%;
+}
