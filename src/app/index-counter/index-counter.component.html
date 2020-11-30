@@ -4,9 +4,31 @@
 <br><br>
 <!--<div class="btn btn-dark" type="button">-1</div>-->
 <div id="counter">
+  <div class="btn-group dropdown">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    
+    </button>
+    <div class="dropdown-menu">
+      <span class="dropdown-item ">+10</span>
+      <a class="dropdown-item" >+20</a>
+      <a class="dropdown-item" >+100</a>
+     
+    </div>
+  </div>
   <div class="btn btn-dark" type="button" (click)=cresc() >+1</div>
  {{contatore}}
  <div class="btn btn-dark" type="button" (click)=decresc()>-1</div>
+ <div class="btn-group dropdown">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   
+  </button>
+  <div class="dropdown-menu">
+    <span class="dropdown-item ">-10</span>
+    <a class="dropdown-item" >-20</a>
+    <a class="dropdown-item" >-100</a>
+   
+  </div>
+</div>
 </div>
 <br>
 <!--<label for="quantity"><h3>Inserisci un numero oppure clicca sulle freccette per diminuire o aumentare il valore</h3> </label>
