@@ -8,11 +8,25 @@ input{
 }
 #counter{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: honeydew;
     border-color: black;
     width: 30%;
     font-size: 120px;
     font-weight: bold;
     height: 30%;
-    margin-right: 20%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#reset{
+    
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        
 }
